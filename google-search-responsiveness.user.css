@@ -1,41 +1,51 @@
-@media only screen and (max-width: 1300px) {
-    body {
-        overflow-x: hidden;
-    }
-    .WE0UJf,
-    #center_col {
-        margin-left: 40px;
-        width: 600px;
-    }
-    #rhs {
-        float: right;
-        right: 20px;
-        margin-left: 40px;
-    }
-    .CvDJxb,
-    #top_nav {
-        min-width: inherit;
-    }
-}
-@media only screen and (max-width: 1080px) {
-    #center_col,
-    .g {
-        width: 452px;
-    }
-    .A8SBwf {
-        margin-left: 0px;
-        padding-left: 40px;
-    }
-    .MUFPAc {
-        margin-left: 40px;
-    }
-    .logo {
-        display: none;
-    }
-}
+/* ==UserStyle==
+@name           google-search-responsiveness
+@namespace      https://github.com/Andreto/google-search-responsiveness
+@version        1.0.0
+@description    User-style that makes the Google Search page more responsive and easier to use on split screen.
+@author         Andreto
+==/UserStyle== */
 
-@media only screen and (max-width: 940px) {
-    body {
-        overflow-x: inherit;
+@-moz-document url-prefix("https://www.google.com/search") {
+    @media only screen and (max-width: 1300px) {
+        body {
+            overflow-x: hidden;
+        }
+        .WE0UJf,
+        #center_col {
+            margin-left: 40px;
+            width: 600px;
+        }
+        #rhs {
+            float: right;
+            right: 20px;
+            margin-left: 40px;
+        }
+        .CvDJxb,
+        #top_nav {
+            min-width: inherit;
+        }
+    }
+    @media only screen and (max-width: 1080px) {
+        #center_col,
+        .g {
+            width: 452px;
+        }
+        .A8SBwf {
+            margin-left: 0px;
+            padding-left: 40px;
+        }
+        .MUFPAc {
+            margin-left: 40px;
+        }
+        .logo {
+            display: none;
+        }
+    }
+
+    @media only screen and (max-width: 940px) {
+        body {
+            overflow-x: inherit;
+        }
     }
 }
